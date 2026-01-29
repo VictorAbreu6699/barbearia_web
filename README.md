@@ -23,38 +23,6 @@ Antes de rodar o projeto, instale em sua máquina:
 
 ---
 
-## 🖥️ Frontend (Vue.js + Vite)
-
-1. Acesse a pasta do frontend:
-   ```bash
-   cd frontend
-   ```
-
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
-
-3. Crie o arquivo `.env` na raiz da pasta `frontend` com o seguinte conteúdo:
-   ```env
-   VITE_API_URL=http://localhost:8000/api
-   ```
-
-   > Aqui você define a URL do backend que o frontend vai consumir.  
-   > No caso acima, o backend Laravel estará rodando em `http://localhost:8000`.
-
-4. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm run dev
-   ```
-
-5. O frontend estará disponível em:
-   ```
-   http://localhost:5173
-   ```
-
----
-
 ## ⚙️ Backend (Laravel)
 
 1. Acesse a pasta do backend:
