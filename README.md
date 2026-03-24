@@ -3,8 +3,9 @@
 ## 📖 Sobre o Projeto
 Este projeto é uma aplicação **full stack** dividida em duas partes principais:
 
-- **Frontend (Vue.js + Vite)**: responsável pela interface com o usuário, garantindo uma experiência interativa e responsiva.
+- **Frontend (React - JS)**: responsável pela interface com o usuário, garantindo uma experiência interativa e responsiva.
 - **Backend (Laravel - PHP)**: responsável pela lógica de negócio, autenticação e comunicação com o banco de dados.
+- **Modelagem banco de dados**: https://dbdiagram.io/d/68b32a2e777b52b76c4c8994
 
 O objetivo é fornecer uma arquitetura moderna, separando bem as responsabilidades entre frontend e backend para facilitar a manutenção e escalabilidade.
 Está sendo desenvolvida sem objetivos comerciais, momentaneamente será somente para estudo e desenvolvimento de portfolio
@@ -21,6 +22,7 @@ Antes de rodar o projeto, instale em sua máquina:
 - [Composer](https://getcomposer.org/)
 - [MySQL](https://www.mysql.com/) ou outro banco de dados compatível
 
+DOCKER SERÁ INSTALADO POSTERIOMENTE
 ---
 
 ## ⚙️ Backend (Laravel)
@@ -79,12 +81,12 @@ Antes de rodar o projeto, instale em sua máquina:
 ---
 
 ## 🔗 Integração Frontend + Backend
-- O **frontend** consome as rotas do **backend** configuradas no `VITE_API_URL`.  
+- O **frontend** consome as rotas do **backend** configuradas no `BACKEND_API_URL`.  
 - Exemplo prático:
   - Backend rodando em `http://localhost:8000/api`
   - Arquivo `.env` do frontend configurado assim:
     ```env
-    VITE_API_URL=http://localhost:8000/api
+    BACKEND_API_URL=http://localhost:8000/api
     ```
 
 Assim, quando o frontend fizer uma requisição via `axios` ou `fetch`, ela será enviada para o backend Laravel.
@@ -92,8 +94,8 @@ Assim, quando o frontend fizer uma requisição via `axios` ou `fetch`, ela ser�
 ---
 
 ## 📌 Tecnologias Utilizadas
-- **Frontend**: Vue.js 3, Vite, Axios  
-- **Backend**: Laravel 10, PHP 8.x, MySQL  
+- **Frontend**: PREENCHER AINDA
+- **Backend**: Laravel 12, PHP 8.x, MySQL  
 - **Outros**: Composer, Node.js, NPM  
 
 ---
